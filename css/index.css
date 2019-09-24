@@ -11,10 +11,11 @@ img{
   background:whitesmoke;
   margin: 3%;
   font: 62.5%;
-  color: dimgrey
+  color: dimgrey;
 }
 
 header{
+  width:100%;
   display:flex;
   flex-direction: column;
   align-items: center;
@@ -24,8 +25,7 @@ h1{
   width:30%;
   padding:1%;
   text-align:center;
-  border: 3px double #e0e0e0;
-  border-radius: 10px;
+  font-size:3em;
 }
 .containerHome .space-images {
   display: flex;
@@ -40,7 +40,7 @@ h1{
 }
 .walk-text p{
   margin-top:7%;
-  background:white
+  background:white;
 }
 .walk-text {
   background:white
@@ -51,24 +51,31 @@ h1{
   background:white
 }
 .walk-text .btn{
-  background:white;
   padding-bottom:2%;
+  text-align: center;
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 nav{
-  display:flex;
-  justify-content: center;
+  text-align: center;
+  margin: 20px 0 0 ;
+  padding: 5px 0;
   
 }
 nav a{
   text-decoration: none;
   color:gray;
+  width:100;
 }
 footer {
-  padding: 20px 0;
-  border: 3px double #e0e0e0;
-  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 
